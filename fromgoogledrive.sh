@@ -1,6 +1,5 @@
 #!/bin/bash
 directory="/home/backup"
- 
 if [ ! -d "$directory" ]; then
     mkdir -p "$directory"
     echo "Directory '$directory' created."
