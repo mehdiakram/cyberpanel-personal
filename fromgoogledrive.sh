@@ -9,7 +9,7 @@ fi
 
 echo "Accessing '$directory' directory."
 cd /home/backup
-
+rm /home/backup/lists.txt
 wget https://raw.githubusercontent.com/mehdiakram/cyberpanel-personal/main/lists.txt
 
 file="lists.txt"
