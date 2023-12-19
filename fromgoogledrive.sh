@@ -2,9 +2,7 @@
 cd /home && mkdir backup && cd backup
 cd /home/backup
 
-echo "Enter lists.txt URL"
-read fileid
-wget fileid
+wget https://raw.githubusercontent.com/mehdiakram/cyberpanel-personal/main/lists.txt
 
 file="lists.txt"
 while read -r line; do
