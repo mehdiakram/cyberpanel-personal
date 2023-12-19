@@ -16,3 +16,6 @@ file="lists.txt"
 while read -r line; do
 	gdown https://drive.google.com/uc?id=$line
 done <$file
+
+cd /home/backup
+ls
